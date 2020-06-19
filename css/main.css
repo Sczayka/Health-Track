@@ -1,0 +1,288 @@
+:root {
+    --main-color: #077ef5;
+    --grey-border: #ced4da
+}
+
+.headerLogin{
+    width: 100%;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-group .form-control{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--grey-border);
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.input-group .form-control:focus{
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: none;
+}
+
+.formLogin{
+    text-align: center;
+}
+.formSpace{
+    height: 30px;
+}
+
+.input-group .labelInput{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    color: var(--main-color)
+}
+
+.btnShowPass{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    background: transparent;
+    border: transparent;
+}
+
+.buttonLogin{
+    width: 100%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+
+.buttonLogin a{
+    color: #fff
+}
+
+.forgotPass{
+    text-align: center;
+    color: #222;
+    font-size: 18px;
+}
+
+.buttonFacebook{
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.buttonFacebook img{
+    margin-right: 20px;
+}
+
+.cadUser{
+    font-size: 16px;
+}
+
+.cadUser a{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.headerCad{
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.headerCad p{
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formCadastro .input-group{
+    margin-bottom: 10px;
+}
+
+.formCadastro button{
+    border-radius: 20px;
+    width: 45%;
+    margin-top: 30px;
+    border: 1px solid var(--main-color)
+}
+
+.formCadastro input[type='radio']{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.radioGroup{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.formCadastro button:first-child{
+    color: var(--main-color);
+}
+
+header{
+    background-color: var(--main-color);
+    height: 60px;
+    padding: 0px 30px;
+}
+
+header p{
+    margin: 0;
+    color: #fff;
+}
+
+header nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    height: 100vh;
+    width: 80%;
+    box-shadow: 0px 0px 20px 20px #4a4a4a4f;
+    background-color: #fff;
+    transform: translateX(-120%);
+    transition: all .2s linear;
+}
+
+.sideHeader{
+    height: 120px;
+    background-image: url('../assets/img/capa_profile.jpg');
+    background-size: cover;
+    display: flex;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sideHeader img{
+    width: 82px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #000;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.sideHeader p{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+header ul{
+    list-style: none;
+    position: relative;
+    top: 30px;
+    padding: 0;
+}
+
+header li{
+    border-bottom: 1px solid var(--grey-border);
+    font-size: 18px;
+    padding: 20px;
+}
+
+header li a{
+    color: #6d6d6d;
+}
+
+.logout{
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.card{
+    border: none;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card h5{
+    color: var(--main-color);
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+
+.card button{
+    background: transparent;
+    border: none;
+}
+
+.card-options{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.table{
+    text-align: center;
+}
+thead{
+    background-color: #e2e2e2;
+    border: 1px solid #e2e2e2;
+    color: #808080;
+}
+
+tbody tr{
+    border-bottom: 1px solid var(--grey-border);
+}
+
+tbody tr ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+tbody tr ul img{
+    margin: 0px 10px;
+}
+
+.newRecord{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 64px;
+    font-size: 24px;
+    line-height: 64px;
+    text-align: center;
+    z-index: 2;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.newRecord:hover{
+    color: #fff;
+    text-decoration: none;
+}
